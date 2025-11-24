@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         // For now, using mailto. You can integrate with a service like Formspree later
-        const mailtoLink = `mailto:your.email@example.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`;
+        const mailtoLink = `mailto:pankajbatham2010@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`;
         window.location.href = mailtoLink;
     };
 
@@ -74,8 +74,8 @@ const Contact: React.FC = () => {
                                 </div>
                                 <div>
                                     <p className="text-slate-400 text-sm">Email</p>
-                                    <a href="mailto:your.email@example.com" className="text-white hover:text-cyan-400 transition-colors">
-                                        your.email@example.com
+                                    <a href="mailto:pankajbatham2010@gmail.com" className="text-white hover:text-cyan-400 transition-colors">
+                                        pankajbatham2010@gmail.com
                                     </a>
                                 </div>
                             </div>

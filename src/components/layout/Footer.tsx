@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
 
     const socialLinks = [
         { icon: Github, href: 'https://github.com/pankajbatham2010', label: 'GitHub' },
-        { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-        { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
+        { icon: Linkedin, href: 'https://www.linkedin.com/in/pankajbatham/', label: 'LinkedIn' },
+        { icon: Mail, href: 'mailto:pankajbatham2010@gmail.com', label: 'Email' },
     ];
 
     return (
