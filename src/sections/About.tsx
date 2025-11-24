@@ -68,16 +68,17 @@ const About: React.FC = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="space-y-6"
                     >
                         <p className="text-slate-300 text-lg leading-relaxed">
-                            I'm a passionate full-stack developer with a love for creating elegant solutions
-                            to complex problems. With expertise in modern web technologies, I specialize in
-                            building responsive, user-friendly applications.
+                            I'm a Computer Science & Engineering graduate (B.E. 2008-2012) with a passion for
+                            building robust software solutions. During my studies, I developed projects including
+                            a Banking System and a Training & Placement Department Website, gaining hands-on
+                            experience in system design and web development.
                         </p>
                         <p className="text-slate-300 text-lg leading-relaxed">
-                            When I'm not coding, you'll find me exploring new technologies, contributing to
-                            open-source projects, or sharing knowledge with the developer community.
+                            Currently, I'm focused on mastering modern technologies including Rust, JavaScript/TypeScript
+                            for web development, and Python for AI/ML applications. I'm dedicated to continuous learning
+                            and building a strong foundation in cutting-edge technologies.
                         </p>
 
                         {/* Highlights */}
